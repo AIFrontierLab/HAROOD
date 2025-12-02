@@ -1,0 +1,7 @@
+data
+output
+*.pyc
+tmp
+scripts
+train_output
+script.md

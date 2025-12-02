@@ -44,14 +44,18 @@ harood/
 
 # 3. Usage
 
-## 3.1 Run with a YAML config
+## 3.1 Download datasets
+
+Download the dataset from [here](https://huggingface.co/datasets/AIFrontierLab/HAROODdata) and extract it into the current directory.
+
+## 3.2 Run with a YAML config
 
 ```python
 from core import train
 results = train(config='./config/experiment.yaml')
 ```
 
-## 3.2 Run with a Python dict
+## 3.3 Run with a Python dict
 
 ```python
 from core import train
@@ -62,7 +66,7 @@ config_dict = {
 results = train(config=config_dict)
 ```
 
-## 3.3 Override parameters
+## 3.4 Override parameters
 
 ```python
 results = train(
