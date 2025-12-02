@@ -1,0 +1,11 @@
+algorithm: 'ERM'
+batch_size: 32
+distyle: 'l2'
+lr: 0.001
+seed: 0
+test_envs: [0]
+output: 'output'
+max_epoch: 150 
+task: 'cross_people' 
+dataset: 'dsads'
+model_size: 'cnn'
