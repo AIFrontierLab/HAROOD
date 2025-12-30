@@ -4,7 +4,7 @@ HAROOD is a modular and reproducible benchmark framework for studying generaliza
 It unifies preprocessing pipelines, standardizes four realistic OOD scenarios, and implements 16 representative algorithms across CNN and Transformer architectures.
 
 This repository contains the official implementation accompanying the paper  
-**"HAROOD: A Benchmark for Out-of-distribution Generalization in Sensor-based Human Activity Recognition"**.
+"[HAROOD: A Benchmark for Out-of-distribution Generalization in Sensor-based Human Activity Recognition](https://arxiv.org/abs/2512.10807)" published in **KDD 2026**.
 
 ---
 
@@ -198,6 +198,11 @@ net.
 If you use HAROOD, please cite:
 
 ```
-[Add your official citation here]
+@inproceedings{lu2026harood,
+  title={HAROOD: A Benchmark for Out-of-distribution Generalization in Sensor-based Human Activity Recognition},
+  author={Lu, Wang and Zhu, Yao and Wang, Jindong},
+  booktitle={The 32rd ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)},
+  year={2026}
+}
 ```
 
